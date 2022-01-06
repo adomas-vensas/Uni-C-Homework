@@ -11,18 +11,17 @@
 
 //TODO:
 //visur error zinutės sutvarkytos
-//paziuret ar visur tenkinami corner cases
-//paziurėt ar deleteElement veikia gerai
 //parašyt dokumentaciją
 //checkInitialization() naudot createList(), deleteElement() funkcijose
 //padaryt, kad getSizeList, kai sąrašo išvis nėra, grąžintų -1
-
-char dictionary[MAX_AMOUNT_LISTS][MAX_ADDRESS_LENGTH] = {{0}};
 
 typedef struct Node{
     void *data;
     struct Node *next;
 }Node;
+
+char dictionary[MAX_AMOUNT_LISTS][MAX_ADDRESS_LENGTH] = {{0}};
+
 
 unsigned checkInitialization(Node **head)
 {

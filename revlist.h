@@ -1,8 +1,6 @@
 #ifndef REVLIST_H_INCLUDED
 #define REVLIST_H_INCLUDED
 
-#include "revlist.c"
+void reverseList(Node **);
 
-void reverseList(Node **head);
-
-#endif
+#endif /* REVLIST_H INCLUDED */
